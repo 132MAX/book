@@ -1,0 +1,30 @@
+.news {
+    padding-top: 30px;
+}
+
+.news__img img {
+    width: 320px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.news__date,
+.news__scribbling,
+.news__writer {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.news__button-basket {
+    margin-left: 25px;
+}
+
+.news .info__button-basket {
+    background-image: none;
+    width: 180px;
+    height: 40px;
+    padding-left: 0;
+}

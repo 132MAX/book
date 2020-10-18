@@ -1,0 +1,45 @@
+.footer {
+    background-color: #fff;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(40, 47, 54, 0.15);
+}
+
+.footer__teble {
+    display: flex;
+    flex-direction: column;
+}
+
+.fotter__tetle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C294D;
+    margin-bottom: 26px;
+}
+
+.footer__teble a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(28, 41, 77, 0.8);
+    margin-bottom: 15px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer__bottom div:first-child {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(28, 41, 77, 0.5);
+}

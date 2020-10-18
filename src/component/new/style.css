@@ -1,0 +1,131 @@
+.new {
+    background-color: #E5E5E5;
+    padding-bottom: 30px;
+}
+
+.new__conteiner {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.new__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 20px;
+    color: #1C294D;
+    margin-left: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.new__book {
+    width: 263px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.new__img img {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 140px;
+    height: 200px;
+}
+
+.info__appraisal {
+    display: flex;
+}
+
+.new__book .info__price {
+    margin-bottom: 10px;
+}
+
+.info__appraisal-item1 {
+    padding: 6px 6px 6px 26px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FBC02D;
+    background: rgba(251, 192, 45, 0.15);
+    border-radius: 5px;
+    width: 52px;
+    height: 25px;
+    position: relative;
+}
+
+.info__appraisal-item1::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-image: url("/star.svg");
+    left: 8px;
+}
+
+.info__appraisal-item2 {
+    margin-left: 10px;
+    width: 144px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 7px 10px 6px 30px;
+    color: #7986CB;
+    position: relative;
+    background-color: rgba(121, 134, 203, 0.15);
+}
+
+.info__appraisal-item2::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url("/ok.svg");
+    left: 10px;
+}
+
+.slick-prev {
+    z-index: 50;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+}
+
+.new .slick-prev {
+    left: 1035px;
+    top: -30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid rgba(28, 41, 77, 0.15);
+}
+
+.new .slick-next {
+    top: -30px;
+    right: 25px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid rgba(28, 41, 77, 0.15);
+}
+
+.slick-active {
+    border: 1px solid rgba(28, 41, 77, 0.15);
+}
+
+.slick-dots li {
+    display: none;
+}
+
+.nev__text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C294D;
+    padding: 10px 0;
+    cursor: pointer;
+}

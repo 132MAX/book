@@ -1,0 +1,61 @@
+.discount {
+    background-color: #E5E5E5;
+    padding-bottom: 30px;
+}
+
+.discount__conteiner {
+    background-color: #0288D1;
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 55px;
+    border-radius: 5px;
+}
+
+.discount__conteiner p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    align-items: center;
+    margin: auto 0;
+    position: relative;
+    z-index: 5;
+}
+
+.discount__conteiner p::before {
+    content: "";
+    position: absolute;
+    background-image: url("/vector.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 25px;
+    background-size: 100% 100%;
+    z-index: -15;
+    left: 55px;
+}
+
+.discount__conteiner input {
+    width: 418px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.discount__conteiner input::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0 10px 15px;
+    color: rgba(28, 41, 77, 0.5);
+}
+
+.discount__conteiner button {
+    width: 137px;
+    height: 40px;
+    background: #0288D1;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}

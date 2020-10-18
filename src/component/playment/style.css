@@ -1,0 +1,43 @@
+.playment {
+    background-color: #E5E5E5;
+}
+
+.playment__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playment__box {
+    display: flex;
+    justify-content: space-around;
+    width: 263px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.playment__box img {
+    width: 60px;
+    height: 66px;
+    object-fit: cover;
+}
+
+.playment__box-text {
+    width: 153px;
+    height: 66px;
+}
+
+.playment__box-text p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    color: #727272;
+}
+
+.playment__box-text p:first-child {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C294D;
+}

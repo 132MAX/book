@@ -1,0 +1,70 @@
+.connection {
+    background: rgba(40, 47, 54, 0.04);
+}
+
+.connection__conteiner {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.connection__input {
+    display: flex;
+}
+
+.connection__input input {
+    width: 393px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgba(40, 47, 54, 0.15);
+}
+
+.connection__input input::placeholder {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(40, 47, 54, 0.5);
+    padding-left: 15px;
+}
+
+.connection__input button {
+    width: 50px;
+    height: 40px;
+    background-color: #FF5C00;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url("/letter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.connection__soz {
+    display: flex;
+}
+
+.f,
+.i,
+.t {
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.f {
+    background-image: url("/f.svg");
+}
+
+.i {
+    background-image: url("/i.svg");
+}
+
+.t {
+    background-image: url("/t.svg");
+}
