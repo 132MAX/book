@@ -10,6 +10,7 @@ import News from "./component/news/News"
 import Connection from "./component/connection/Connection"
 import Footer from "./component/footer/Footer"
 import './reset.css';
+
 function App() {
   return (
     <div className="App">

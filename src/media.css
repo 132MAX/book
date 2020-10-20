@@ -1,0 +1,74 @@
+@media (max-width: 1152px) {
+    .new .slick-prev {
+        background-color: lawngreen;
+        left: 1010px;
+    }
+    .info__content {
+        flex-direction: column;
+    }
+    .info__selle-slider,
+    .info__day {
+        margin: 0 auto;
+    }
+    .info__day {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1135px) {
+    .new .slick-prev {
+        background-color: lawngreen;
+        left: 900px;
+    }
+}
+
+@media (max-width: 1102px) {
+    .new .slick-prev {
+        background-color: lawngreen;
+        left: 900px;
+    }
+}
+
+@media (max-width: 1002px) {
+    .new .slick-prev {
+        background-color: lawngreen;
+        left: 800px;
+    }
+    .navigatiion__client-search-input {
+        border-right: 1px solid #DFE0E1;
+    }
+}
+
+@media (max-width: 902px) {
+    .new .slick-prev {
+        background-color: lawngreen;
+        left: 700px;
+    }
+    .playment__item {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    .navigatiion__client {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    .navigatiion__client-boxLeft {
+        margin-bottom: 10px;
+    }
+    .navigatiion__client-boxLeft {
+        width: 550px;
+    }
+}
+
+@media (max-width: 802px) {
+    .new .slick-prev {
+        background-color: lawngreen;
+        left: 600px;
+    }
+}

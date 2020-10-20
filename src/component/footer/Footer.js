@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import './style.css';
+import "./../../media.css"
 const table=[{
     title:"Покупателям",
     p1:"Наша почта",
