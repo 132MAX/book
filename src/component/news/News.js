@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import Slider from "react-slick";
+import { useMediaPredicate } from "react-media-hook";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './style.css';
@@ -59,11 +60,13 @@ function BoockDay(props) {
 }
 
 export default () => {
+ const biggerThan400 = useMediaPredicate("(min-width: 900px)");
+
     var settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow:biggerThan400 ?3:1,
         slidesToScroll: 1
     };
     return (

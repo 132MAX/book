@@ -1,6 +1,8 @@
 @media (max-width: 1152px) {
+    .address__place {
+        justify-content: space-around;
+    }
     .new .slick-prev {
-        background-color: lawngreen;
         left: 1010px;
     }
     .info__content {
@@ -13,35 +15,45 @@
     .info__day {
         margin-bottom: 20px;
     }
+    .info__selle-box {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 1135px) {
     .new .slick-prev {
-        background-color: lawngreen;
         left: 900px;
     }
 }
 
 @media (max-width: 1102px) {
     .new .slick-prev {
-        background-color: lawngreen;
         left: 900px;
     }
 }
 
 @media (max-width: 1002px) {
     .new .slick-prev {
-        background-color: lawngreen;
         left: 800px;
     }
     .navigatiion__client-search-input {
         border-right: 1px solid #DFE0E1;
     }
+    .navigatiion__client {
+        flex-direction: column;
+    }
+    .navigatiion__client-boxLeft,
+    .navigatiion__client-boxRight,
+    .navigatiion__menu {
+        justify-content: center;
+    }
+    .navigatiion__client-boxLeft {
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 902px) {
     .new .slick-prev {
-        background-color: lawngreen;
         left: 700px;
     }
     .playment__item {
@@ -51,24 +63,40 @@
         justify-content: flex-start;
         align-items: stretch;
     }
-    .navigatiion__client {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: stretch;
-    }
-    .navigatiion__client-boxLeft {
-        margin-bottom: 10px;
-    }
-    .navigatiion__client-boxLeft {
-        width: 550px;
-    }
 }
 
 @media (max-width: 802px) {
     .new .slick-prev {
-        background-color: lawngreen;
-        left: 600px;
+        left: 500px;
+    }
+    .info__selle-slider {
+        width: 500px;
+    }
+    .address {
+        display: none;
+    }
+    .connection__conteiner {
+        flex-direction: column;
+    }
+    .connection__conteiner img {
+        display: none;
+    }
+    .connection__conteiner div {
+        margin-left: 50px;
+    }
+    .connection__input {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 652px) {
+    .new .slick-prev {
+        left: 400px;
+    }
+    .info__selle-box {
+        flex-direction: column;
+    }
+    .info__selle-box div {
+        margin: 5px auto;
     }
 }
