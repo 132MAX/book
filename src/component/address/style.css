@@ -109,7 +109,7 @@ a {
     border-radius: 10px;
     position: relative;
     background-color: #fff;
-    z-index: 9;
+    z-index: 59;
 }
 
 .address__place-connection-email {
