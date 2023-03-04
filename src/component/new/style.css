@@ -23,6 +23,7 @@
     width: 263px;
     height: 460px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .new__img img {
@@ -97,7 +98,7 @@
 }
 
 .new .slick-prev {
-    left: 1035px;
+    left: 1015px;
     top: -30px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;

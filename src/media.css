@@ -31,7 +31,11 @@
         left: 900px;
     }
 }
-
+@media (max-width: 1024px) {
+    .new .slick-prev {
+        left: 850px;
+    }
+}
 @media (max-width: 1002px) {
     .new .slick-prev {
         left: 800px;
@@ -51,7 +55,11 @@
         margin-bottom: 10px;
     }
 }
-
+@media (max-width: 920px) {
+    .new .slick-prev {
+        left: 750px;
+    }
+}
 @media (max-width: 902px) {
     .new .slick-prev {
         left: 700px;
@@ -98,5 +106,15 @@
     }
     .info__selle-box div {
         margin: 5px auto;
+    }
+}
+@media (max-width: 520px) {
+    .new .slick-prev {
+        left: 350px;
+    }
+}
+@media (max-width: 475px) {
+    .new .slick-prev {
+        left: 300px;
     }
 }
