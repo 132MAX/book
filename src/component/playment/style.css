@@ -9,12 +9,13 @@
 
 .playment__box {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 263px;
     height: 150px;
     background: #FFFFFF;
     border-radius: 5px;
     align-items: center;
+    margin: 5px;
 }
 
 .playment__box img {

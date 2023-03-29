@@ -18,7 +18,7 @@
 }
 
 .navigatiion__client-search-input {
-    width: 450px;
+    max-width: 450px;
     height: 40px;
     border: 1px solid #DFE0E1;
     border-radius: 5px;

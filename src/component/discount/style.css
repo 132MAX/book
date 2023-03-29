@@ -9,6 +9,7 @@
     justify-content: space-between;
     padding: 33px 55px;
     border-radius: 5px;
+    flex-wrap: wrap;
 }
 
 .discount__conteiner p {

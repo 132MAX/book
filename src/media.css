@@ -68,7 +68,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: flex-start;
+       
         align-items: stretch;
     }
 }
@@ -78,7 +78,7 @@
         left: 500px;
     }
     .info__selle-slider {
-        width: 500px;
+        width: 364px;
     }
     .address {
         display: none;
@@ -116,5 +116,15 @@
 @media (max-width: 475px) {
     .new .slick-prev {
         left: 300px;
+    }
+}
+@media (max-width: 450px) {
+    .new .slick-prev {
+        left: 250px;
+    }
+}
+@media (max-width: 390px) {
+    .new .slick-prev {
+        left: 220px;
     }
 }

@@ -228,7 +228,8 @@
 
 .info__button {
     display: flex;
-    margin: 12px 0 26px 0;
+    position: absolute;
+    bottom: 20px;
 }
 
 .info__button-basket {
